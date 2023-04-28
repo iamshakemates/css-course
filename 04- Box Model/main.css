@@ -1,43 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-}
-
 h1 {
   border: 2px dashed red;
   width: 50%;
   font-size: 3rem;
   padding: 0.5em;
 }
-
-main {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 2rem;
-  width: 40ch;
-}
-
-/* NOTES:
-    - Don't practice using absolute value like px(pixel) in fonts to avoid overruling users choice. When you use px in fonts and try to change browser font size preference the changes will not apply
-
-    - rem(root element) unit is relative value. It's value serves as a multiplier of the root element size.
-    Ex: Browser default font size is 16px
-    when you set p size to 2rem it should be equal to 32px
-
-    - em(main element) will look for the size of the main 
-    
-    -ch(character) treat as character count before the line wrap
-
-    - (*) is the wildcard selector or the reset element. Clears out predefined value set by the browser
-
-    - vh, vw - viewport height or width, adjust depending on the viewport scope
-
-    - min-height expandable as the width or height adjust
-*/
