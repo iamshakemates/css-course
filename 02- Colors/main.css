@@ -9,3 +9,13 @@ body {
 p {
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* This lesson covers differenct color types
+    - color name (black)
+    - rgb (0,0,0)
+    - rgba ; (0,0,0,0.5)
+    - hex ; #000000
+*/
+
+/* Consider checking the color contrast using 
+    third party websites */
