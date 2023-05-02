@@ -1,29 +1,3 @@
-body {
-  font-family: sans-serif;
-  padding: 5%;
-  border: 1px solid red;
-}
-
-ol {
-  list-style-type: none;
+* {
   padding: 0;
 }
-
-ul {
-  list-style: square;
-  list-style-image: url(check.png);
-  list-style-position: outside;
-  text-align: center;
-}
-
-ul li:nth-child(2) {
-  color: red;
-}
-
-/* 
-1.list-style type (ol) 
-2.list-style-position
-3.list-style-image:url()
-E
-
-*/
