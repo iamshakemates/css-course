@@ -4,22 +4,62 @@
   box-sizing: border-box;
 }
 
-ul {
-  background-color: #161b22;
-  text-align: right;
-  padding: 1rem;
+body {
+  min-height: 200vh;
+  max-width: 200vw;
 }
 
-li {
-  display: inline-block;
-  margin-inline: 0.5rem;
+.outer-container {
+  border: 1px dashed red;
+  width: 50vw;
+  height: 90vh;
+  margin: 5% auto;
+  position: relative;
 }
 
-li a {
-  text-decoration: none;
-  color: #f0f6fc;
+.inner-container {
+  border: 1px dashed red;
+  width: 30vw;
+  height: 60vh;
+  margin: 25% auto;
+  padding: 30% 15%;
+  /* position: relative; */
 }
 
-li a:hover {
-  color: rgba(255, 255, 255, 0.698);
+.box {
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.absolute {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* the default relative position for absolute is the browsers area */
+
+.relative {
+  background-color: green;
+  position: relative;
+  top: 0px;
+  left: 80px;
+}
+/* relative base position is as is*/
+
+.fixed {
+  background-color: orange;
+  position: fixed;
+  top: 100px;
+  z-index: 1;
+}
+/* relative to browser area, and fixed to its position regardless */
+/* z-index will wrap your object in front if value is greater */
+
+.sticky {
+  background-color: pink;
+  position: sticky;
+  top: 1000px;
+  left: 1000px;
 }
