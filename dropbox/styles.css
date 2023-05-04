@@ -1,65 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+main {
+  background-color: aqua;
+  max-width: 800px;
+  margin: 5rem auto;
+  border: 1px solid red;
 }
 
-body {
-  min-height: 200vh;
-  max-width: 200vw;
-}
-
-.outer-container {
-  border: 1px dashed red;
-  width: 50vw;
-  height: 90vh;
-  margin: 5% auto;
-  position: relative;
-}
-
-.inner-container {
-  border: 1px dashed red;
-  width: 30vw;
-  height: 60vh;
-  margin: 25% auto;
-  padding: 30% 15%;
-  /* position: relative; */
-}
-
-.box {
-  color: white;
-  width: 100px;
-  height: 100px;
-}
-
-.absolute {
-  background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* the default relative position for absolute is the browsers area */
-
-.relative {
-  background-color: green;
-  position: relative;
-  top: 0px;
-  left: 80px;
-}
-/* relative base position is as is*/
-
-.fixed {
-  background-color: orange;
-  position: fixed;
-  top: 100px;
-  z-index: 1;
-}
-/* relative to browser area, and fixed to its position regardless */
-/* z-index will wrap your object in front if value is greater */
-
-.sticky {
-  background-color: pink;
-  position: sticky;
-  top: 1000px;
-  left: 1000px;
-}
