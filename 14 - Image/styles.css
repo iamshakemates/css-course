@@ -1,0 +1,49 @@
+/* Begin Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  display: block;
+}
+
+/* End Reset */
+
+/* Utility Classes */
+
+/* End Utility Classes */
+
+body {
+  min-height: 100vh;
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.h1 {
+  font-size: 500%;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.profile-picture {
+  width: 35%;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
