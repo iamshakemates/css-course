@@ -13,10 +13,35 @@
 
 /* Utility Classes */
 
+.no-wrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
 /* End Utility Classes */
 
 body {
   min-height: 100vh;
+  font-family: sans-serif;
+  background-color: aliceblue;
+  /* background-image: url(transparent.png),
+    linear-gradient(to left, steelblue, white);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center; */
+  background: repeat-y right center url(transparent.png),
+    no-repeat linear-gradient(to left, steelblue, white);
+}
+
+.container {
+  background-color: rgb(241, 161, 173);
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
 }
 
 .hero {
@@ -26,14 +51,17 @@ body {
   align-items: center;
   justify-content: start;
   gap: 1rem;
+
+  background-color: hsla(0, 0%, 100%, 0.35);
 }
 
 .h1 {
   font-size: 500%;
-}
-
-.no-wrap {
-  white-space: nowrap;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px black;
+  /* background-color: hsla(0, 0%, 0%, 0.218);
+  border-radius: 10px;
+  padding: 0.25rem; */
 }
 
 .profile-picture {
@@ -46,4 +74,15 @@ body {
   min-width: 100px;
   border: 5px double gray;
   border-radius: 50%;
+}
+
+.clip {
+  font-weight: 18;
+  font-size: 10rem;
+  text-align: center;
+  background-image: url(banner.jpg);
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.196);
 }
