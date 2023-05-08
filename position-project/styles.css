@@ -1,0 +1,54 @@
+body {
+  min-height: 200vh;
+}
+
+.outside-container {
+  border: 1px dashed black;
+  width: 50vw;
+  height: 80vh;
+  padding: 1rem;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.inside-container {
+  border: 1px dashed black;
+  width: 30vw;
+  height: 40vh;
+  padding: 1rem;
+  margin: 10rem auto;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  color: white;
+}
+
+.absolute {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.relative {
+  background-color: blue;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.fixed {
+  background-color: green;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.sticky {
+  background-color: orange;
+  position: sticky;
+  top: 100px;
+  right: 500px;
+}
