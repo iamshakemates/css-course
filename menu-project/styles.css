@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  border: 1px solid black;
+  margin: 0 auto 0.5rem;
+  max-width: 25rem;
+  border-radius: 2rem;
+  line-height: 5.5rem;
+  font-size: 2.5rem;
+}
+
+h1 {
+  padding: 0.5rem;
+  background-color: gold;
+  border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-top: 1px solid black;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+  display: block;
+  cursor: pointer;
+}
+
+li a:focus,
+li a:hover {
+  background: rgb(58, 57, 57);
+  color: whitesmoke;
+}
+
+li:last-child a {
+  border-radius: 0 0 2rem 2rem;
+}
