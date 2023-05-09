@@ -1,0 +1,79 @@
+/* Begin Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.example img {
+  display: block;
+}
+
+/* End Reset */
+
+/* Utility Classes */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+/* End Utility Classes */
+
+body {
+  font-family: sans-serif;
+  min-height: 200vh;
+}
+
+.container {
+  background-color: pink;
+  background-image: url(img/aes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: hsla(0, 0%, 3%, 0.163);
+}
+
+.h1 {
+  font-size: 500%;
+  color: whitesmoke;
+  text-shadow: 3px 3px 10px black;
+}
+
+.profile-pic {
+  width: 35%;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+.example {
+  border: 1px solid red;
+  margin: 1rem 1rem;
+}
+
+.example img {
+  width: 25%;
+  height: auto;
+}
