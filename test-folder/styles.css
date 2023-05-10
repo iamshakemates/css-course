@@ -103,7 +103,7 @@ footer {
   scroll-margin-top: 8rem;
   width: min(100%, 350px);
   background-color: #cbd5e1;
-  border: 2px solid black;
+  border: 2px solid var(--DARK-COLOR);
   border-radius: 15px;
   padding: 1rem;
   display: flex;
@@ -181,7 +181,7 @@ footer {
 }
 
 /* || MOBILE DEVICE LANDSCAPE */
-@media screen and (max-height: 425px) and (min-aspect-ration: 7/4) {
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   h1 {
     font-size: 1.5rem;
   }
