@@ -157,7 +157,7 @@ footer {
 }
 
 /* || MOBILE DEVICE LANDSCAPE */
-@media screen and (max-height: 425px) and (min-aspect-ration: 7/4) {
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   h1 {
     font-size: 1.5rem;
   }
